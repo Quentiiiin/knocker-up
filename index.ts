@@ -3,7 +3,7 @@ const wol = require('wakeonlan');
 
 const MAC_ADDRESS = process.env.TARGET_MAC_ADDRESS;
 
-const PORT = process.env.PORT || 3000;
+const PORT = 57771;
 
 const app = new Hono();
 
